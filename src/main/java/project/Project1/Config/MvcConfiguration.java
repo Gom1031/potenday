@@ -1,4 +1,4 @@
-package lawproject.LawProject.Config;
+package project.Project1.Config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

@@ -1,10 +1,11 @@
-package lawproject.LawProject.Model;
+package project.Project1.Model;
 
-import lawproject.LawProject.Entity.Role;
-import lawproject.LawProject.Entity.userEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import project.Project1.Entity.Role;
+import project.Project1.Entity.userEntity;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

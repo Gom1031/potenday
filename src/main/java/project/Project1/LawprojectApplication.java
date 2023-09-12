@@ -1,4 +1,4 @@
-package lawproject.LawProject;
+package project.Project1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -6,10 +6,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import lawproject.LawProject.Entity.Role;
-import lawproject.LawProject.DTO.userDTO;
-import lawproject.LawProject.Entity.userEntity;
-import lawproject.LawProject.Service.userService;
+import project.Project1.DTO.userDTO;
+import project.Project1.Entity.Role;
+import project.Project1.Entity.userEntity;
+import project.Project1.Service.userService;
 
 import java.time.LocalDateTime;
 

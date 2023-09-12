@@ -1,10 +1,11 @@
-package lawproject.LawProject.Mapper;
+package project.Project1.Mapper;
 
-import lawproject.LawProject.DTO.consultboardDTO;
-import lawproject.LawProject.Entity.consultboardEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
+
+import project.Project1.DTO.consultboardDTO;
+import project.Project1.Entity.consultboardEntity;
 
 @Mapper
 public interface consultboardMapper {

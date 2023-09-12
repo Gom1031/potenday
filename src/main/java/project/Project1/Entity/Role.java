@@ -1,4 +1,4 @@
-package lawproject.LawProject.Entity;
+package project.Project1.Entity;
 
 public enum Role {
     USER, ADMIN

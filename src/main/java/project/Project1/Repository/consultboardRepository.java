@@ -1,10 +1,10 @@
-package lawproject.LawProject.Repository;
-
-import lawproject.LawProject.Entity.consultboardEntity;
+package project.Project1.Repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import project.Project1.Entity.consultboardEntity;
 
 import java.util.List;
 

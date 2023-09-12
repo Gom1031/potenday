@@ -1,7 +1,8 @@
-package lawproject.LawProject.Repository;
+package project.Project1.Repository;
 
-import lawproject.LawProject.Entity.userEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import project.Project1.Entity.userEntity;
 
 public interface userRepository extends JpaRepository<userEntity, Long> {
     userEntity findByUsername(String username);

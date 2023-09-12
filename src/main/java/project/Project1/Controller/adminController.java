@@ -1,4 +1,4 @@
-package lawproject.LawProject.Controller;
+package project.Project1.Controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import lawproject.LawProject.DTO.consultboardDTO;
-import lawproject.LawProject.Entity.consultboardEntity;
-import lawproject.LawProject.Mapper.consultboardMapper;
-import lawproject.LawProject.Service.consultboardService;
+import project.Project1.DTO.consultboardDTO;
+import project.Project1.Entity.consultboardEntity;
+import project.Project1.Mapper.consultboardMapper;
+import project.Project1.Service.consultboardService;
 
 @Controller
 @RequestMapping("/admin")

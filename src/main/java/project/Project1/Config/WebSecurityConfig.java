@@ -1,4 +1,4 @@
-package lawproject.LawProject.Config;
+package project.Project1.Config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package lawproject.LawProject.DTO;
+package project.Project1.DTO;
 
 public class ErrorDTO {
     private String error;

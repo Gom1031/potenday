@@ -1,4 +1,4 @@
-package lawproject.LawProject.Entity;
+package project.Project1.Entity;
 
 import java.time.LocalDateTime;
 

@@ -1,14 +1,14 @@
-package lawproject.LawProject.Service;
-
-import lawproject.LawProject.Model.User;
-import lawproject.LawProject.Repository.userRepository;
-import lawproject.LawProject.Entity.userEntity;
+package project.Project1.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import project.Project1.Entity.userEntity;
+import project.Project1.Model.User;
+import project.Project1.Repository.userRepository;
 
 @Service // 이 클래스가 서비스 레이어의 컴포넌트임을 나타냄
 public class customUserDetailsService implements UserDetailsService {

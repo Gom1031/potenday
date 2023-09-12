@@ -1,9 +1,4 @@
-package lawproject.LawProject.Controller;
-
-import lawproject.LawProject.DTO.consultboardDTO;
-import lawproject.LawProject.Entity.consultboardEntity;
-import lawproject.LawProject.Mapper.consultboardMapper;
-import lawproject.LawProject.Service.consultboardService;
+package project.Project1.Controller;
 
 import java.util.List;
 
@@ -11,6 +6,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import project.Project1.DTO.consultboardDTO;
+import project.Project1.Entity.consultboardEntity;
+import project.Project1.Mapper.consultboardMapper;
+import project.Project1.Service.consultboardService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.security.core.Authentication;

@@ -1,8 +1,4 @@
-package lawproject.LawProject.Controller;
-
-import lawproject.LawProject.DTO.ErrorDTO;
-import lawproject.LawProject.DTO.userDTO;
-import lawproject.LawProject.Service.userService;
+package project.Project1.Controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -17,6 +13,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import project.Project1.DTO.ErrorDTO;
+import project.Project1.DTO.userDTO;
+import project.Project1.Service.userService;
 
 @Controller
 @RequestMapping("/api/user")

@@ -1,9 +1,11 @@
-package lawproject.LawProject.Service;
+package project.Project1.Service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import lawproject.LawProject.Entity.consultboardEntity;
-import lawproject.LawProject.Repository.consultboardRepository;
+
+import project.Project1.Entity.consultboardEntity;
+import project.Project1.Repository.consultboardRepository;
+
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.beans.factory.annotation.Autowired;

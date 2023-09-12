@@ -1,10 +1,9 @@
-package lawproject.LawProject.DTO;
+package project.Project1.DTO;
 
 import java.time.LocalDateTime;
 
-import lawproject.LawProject.Entity.Role;
-
 import lombok.Data;
+import project.Project1.Entity.Role;
 
 @Data
 public class userDTO {

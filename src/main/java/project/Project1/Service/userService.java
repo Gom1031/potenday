@@ -1,13 +1,13 @@
-package lawproject.LawProject.Service;
-
-import lawproject.LawProject.DTO.userDTO;
-import lawproject.LawProject.Entity.userEntity;
-import lawproject.LawProject.Repository.userRepository;
+package project.Project1.Service;
 
 import java.time.LocalDateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import project.Project1.DTO.userDTO;
+import project.Project1.Entity.userEntity;
+import project.Project1.Repository.userRepository;
 
 @Service // 이 클래스가 서비스 레이어의 컴포넌트임을 나타냄
 public class userService {
